@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videotron BEM Polinema</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="vintage-clock">
+    <div class="cord-top">
+      <div class="cord-knot"></div>
+    </div>
+    <div class="clock-casing">
+      <div class="clock-face">
+        <div class="hand hour-hand" id="hour-hand"></div>
+        <div class="hand minute-hand" id="minute-hand"></div>
+        <div class="hand second-hand" id="second-hand"></div>
+        <div class="center-dot"></div>
+      </div>
+    </div>
+    <div class="cord-bottom-bundle">
+      <div class="tassel"></div>
+      <div class="tassel"></div>
+      <div class="tassel"></div>
+    </div>
+  </div>
+  <div class="cinematic-light"></div>
+  <!-- <div class="official-pattern"></div> -->
+  <!-- <div class="watermark-bg"></div> -->
+  <div class="bokeh-effect"></div>
+  <div class="watermark-bg"></div>
+  <div class="bokeh-effect"></div>
+
+  <div class="svg-decorations">
+    <svg class="gold-wave wave-left" viewBox="0 0 200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-50,0 C150,150 50,350 -50,500" stroke="rgba(212, 175, 55, 0.2)" stroke-width="2" fill="none" />
+      <path d="M-10,0 C200,200 100,400 -10,500" stroke="rgba(212, 175, 55, 0.1)" stroke-width="1" fill="none" />
+    </svg>
+
+    <svg class="gold-wave wave-right" viewBox="0 0 200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M250,0 C50,150 150,350 250,500" stroke="rgba(212, 175, 55, 0.2)" stroke-width="2" fill="none" />
+      <path d="M210,0 C0,200 100,400 210,500" stroke="rgba(212, 175, 55, 0.1)" stroke-width="1" fill="none" />
+    </svg>
+
+    <svg class="sparkle sp-1" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15 0C15 8.284 8.284 15 0 15C8.284 15 15 21.716 15 30C15 21.716 21.716 15 30 15C21.716 15 15 8.284 15 0Z"
+        fill="#d4af37" />
+    </svg>
+    <svg class="sparkle sp-2" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15 0C15 8.284 8.284 15 0 15C8.284 15 15 21.716 15 30C15 21.716 21.716 15 30 15C21.716 15 15 8.284 15 0Z"
+        fill="#d4af37" />
+    </svg>
+    <svg class="sparkle sp-3" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M15 0C15 8.284 8.284 15 0 15C8.284 15 15 21.716 15 30C15 21.716 21.716 15 30 15C21.716 15 15 8.284 15 0Z"
+        fill="#d4af37" />
+    </svg>
+  </div>
+
+  <!-- <div class="svg-divider animate-4">
+    <svg width="150" height="20" viewBox="0 0 150 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10H60M90 10H150" stroke="#d4af37" stroke-width="1.5" />
+      <path
+        d="M75 2C75 6.418 71.418 10 67 10C71.418 10 75 13.582 75 18C75 13.582 78.582 10 83 10C78.582 10 75 6.418 75 2Z"
+        fill="#d4af37" />
+    </svg>
+  </div> -->
+
+  <div class="grand-frame">
+    <div class="corner-ornament top-left"></div>
+    <div class="corner-ornament top-right"></div>
+    <div class="corner-ornament bottom-left"></div>
+    <div class="corner-ornament bottom-right"></div>
+  </div>
+  <div class="banner-container">
+    <svg class="gold-waves wave-top-left" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,100 C150,200 200,0 400,100 C500,150 450,300 500,400" stroke="url(#goldGrad)" stroke-width="2"
+        fill="transparent" />
+      <path d="M-50,150 C100,250 150,50 350,150 C450,200 400,350 450,450" stroke="url(#goldGrad)" stroke-width="4"
+        stroke-opacity="0.5" fill="transparent" />
+      <path d="M-100,200 C50,300 100,100 300,200 C400,250 350,400 400,500" stroke="url(#goldGrad)" stroke-width="1"
+        stroke-opacity="0.8" fill="transparent" />
+      <defs>
+        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#D4AF37" />
+          <stop offset="50%" stop-color="#F3E6D4" />
+          <stop offset="100%" stop-color="#B8860B" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <svg class="gold-waves wave-bottom-right" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,100 C150,200 200,0 400,100 C500,150 450,300 500,400" stroke="url(#goldGrad)" stroke-width="2"
+        fill="transparent" />
+      <path d="M-50,150 C100,250 150,50 350,150 C450,200 400,350 450,450" stroke="url(#goldGrad)" stroke-width="4"
+        stroke-opacity="0.5" fill="transparent" />
+      <path d="M-100,200 C50,300 100,100 300,200 C400,250 350,400 400,500" stroke="url(#goldGrad)" stroke-width="1"
+        stroke-opacity="0.8" fill="transparent" />
+    </svg>
+
+    <div class="official-frame"></div>
+
+    <canvas id="particle-canvas"></canvas>
+
+    <div class="logo-section-bawah animate-1">
+      <div class="logo-box-atas">
+        <img src="./img/logoPolinema.png" alt="Logo" class="logo-polinema" />
+        <img src="./img/logoBEM.png" alt="Logo" class="logo-bem" />
+        <img src="./img/gelora-kartha.png" alt="Logo" class="logo-gelora" />
+      </div>
+    </div>
+
+    <div class="main-content">
+      <!-- <svg class="title-flank flank-left animate-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M50 0C40 20 20 40 0 50C20 60 40 80 50 100C60 80 80 60 100 50C80 40 60 20 50 0ZM50 85C35 70 20 60 15 50C20 40 35 30 50 15C65 30 80 40 85 50C80 60 65 70 50 85Z"
+          fill="#997a15" opacity="0.3" />
+      </svg>
+      <svg class="title-flank flank-right animate-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M50 0C40 20 20 40 0 50C20 60 40 80 50 100C60 80 80 60 100 50C80 40 60 20 50 0ZM50 85C35 70 20 60 15 50C20 40 35 30 50 15C65 30 80 40 85 50C80 60 65 70 50 85Z"
+          fill="#997a15" opacity="0.3" />
+      </svg> -->
+      <div class="gold-text-small ornate-line animate-2">
+        <span>PENGUKUHAN ALUMNI</span>
+      </div>
+
+      <div class="gold-text-large animate-3">
+        BADAN EKSEKUTIF MAHASISWA
+      </div>
+
+      <div class="cream-text ornate-line animate-4">
+        <span>POLITEKNIK NEGERI MALANG</span>
+      </div>
+
+      <div class="tagline animate-5">
+        <strong>MENGUKUHKAN JEJAK, MENYULAM ASA:</strong><br>
+        LANGKAH AWAL MENJAGA NYALA PENGABDIAN LINTAS GENERASI.
+      </div>
+
+      <div class="info-bar animate-6">
+        <div class="info-pill">
+          <span class="info-icon">📍</span> AUDITORIUM TEKNIK SIPIL LANTAI 8
+        </div>
+        <div class="info-pill">
+          <span class="info-icon">📅</span> 13 JUNI 2026
+        </div>
+        <div class="info-pill">
+          <span class="info-icon">⏰</span> 07:00 - 17:00 WIB
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-section-bawah animate-7">
+      <div class="logo-box-bawah">
+        <img src="./img/logo-bawah-baru.png" alt="Logo" class="logo-bawah" />
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const canvas = document.getElementById("particle-canvas");
+    const ctx = canvas.getContext("2d");
+    let particles = [];
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    window.addEventListener("resize", resize);
+    resize();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 2 + 0.5; // Partikel sedikit diperkecil
+        this.speedY = Math.random() * 0.4 + 0.1;
+        this.opacity = Math.random() * 0.4 + 0.1;
+      }
+      update() {
+        this.y -= this.speedY;
+        if (this.y < -10) {
+          this.y = canvas.height + 10;
+          this.x = Math.random() * canvas.width;
+        }
+      }
+      draw() {
+        ctx.fillStyle = `rgba(243, 230, 212, ${this.opacity})`;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    function init() {
+      for (let i = 0; i < 70; i++) {
+        particles.push(new Particle());
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p) => {
+        p.update();
+        p.draw();
+      });
+      requestAnimationFrame(animate);
+    }
+
+    init();
+    animate();
+    function updateVintageClock() {
+      const now = new Date();
+
+      // --- 1. PENGATURAN JAM ANALOG ---
+      const seconds = now.getSeconds();
+      const minutes = now.getMinutes();
+      const hours = now.getHours();
+
+      // Menghitung derajat rotasi (360 derajat)
+      const secondsDegrees = (seconds / 60) * 360;
+      // Menit bergerak halus sesuai detik
+      const minutesDegrees = ((minutes / 60) * 360) + ((seconds / 60) * 6);
+      // Jam bergerak halus sesuai menit
+      const hoursDegrees = ((hours / 12) * 360) + ((minutes / 60) * 30);
+
+      // Terapkan rotasi ke CSS
+      document.getElementById('second-hand').style.transform = `translateX(-50%) rotate(${secondsDegrees}deg)`;
+      document.getElementById('minute-hand').style.transform = `translateX(-50%) rotate(${minutesDegrees}deg)`;
+      document.getElementById('hour-hand').style.transform = `translateX(-50%) rotate(${hoursDegrees}deg)`;
+
+      // --- 2. PENGATURAN TEKS DIGITAL (Opsional) ---
+      let textHours = hours < 10 ? '0' + hours : hours;
+      let textMinutes = minutes < 10 ? '0' + minutes : minutes;
+      let textSeconds = seconds < 10 ? '0' + seconds : seconds;
+      document.getElementById('vintage-time').innerText = textHours + ':' + textMinutes + ':' + textSeconds;
+    }
+
+    setInterval(updateVintageClock, 1000);
+    updateVintageClock();
+  </script>
+</body>
+
+</html>
